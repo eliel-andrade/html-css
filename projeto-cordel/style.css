@@ -24,6 +24,7 @@ html, body {
 header {
 background-color: black;
 color: white;
+
 }
 
 header > h1 {
@@ -63,6 +64,10 @@ section {
     font-size: 5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 
 section.normal {
     background-color: rgba(245, 241, 241, 0.747);
@@ -77,6 +82,16 @@ section.imagem > p {
     display: inline-block;
     color: white;
     padding: 5px;
+}
+
+section#img1 {
+    background-image: url ('../imagens/background002.jpg');
+    background-position: right center;
+}
+
+section#img2 {
+    background-image: url ('../imagens/background001.jpg');
+    background-position: right center;
 }
 
 footer {
